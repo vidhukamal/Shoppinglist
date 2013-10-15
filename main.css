@@ -1,0 +1,33 @@
+ #container{
+	text-align:center;
+	border:2px solid blue;
+	height: 500px;
+	width:600px;
+	margin:0 auto;
+	border-radius: 15px;
+	background-color:#92ED6B;
+	color:#2B8E00;
+	font-family:Castellar;
+	font-weight: 700;
+	letter-spacing:2px;
+}
+label{
+	
+	display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+
+.product{
+	float:left;
+}
+.input{
+	float:right;
+}
+br{
+	color:yellow;
+}
+
+
+
