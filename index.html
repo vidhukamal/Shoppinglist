@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+	<title>Vidhya's Shopping list app</title>
 	<head>
 		<meta charset="utf-8">
 
@@ -18,21 +19,27 @@
 			</header>
 			<hr>			
 			<div class="lists">
-				
-				
-				<form class="product">
-					<h3>Your List</h3>
-					<label><input type="checkbox">tomato</label>	
-                     <label><input type="checkbox">potato</label>
-                     <label><input type="checkbox">fig</label>
-                     <label><input type="checkbox">cucumber</label>
 					
-				</form>
+					
+					<form>
+						<h3>Your List</h3>
+                    	<ul>
+                    		<li id='tomato' class="shop_item">
+                    			<input type="checkbox" class="check_cls" />
+                    			tomato
+                    			<img src="remove.png" class="remove"/>
+                    		</li>
+                    	<li id='ginger' class="shop_item">
+                    		<input type="checkbox" class="check_cls" />
+                    		ginger 
+                    		<img src="remove.png" class="remove"/></li>
+                    	</ul>
+                    </form>
+				
 				<form class="input">
 					<h3>Add a new item:</h3>
 					<input type="text" id="add_item" name="product" size="40">
 					<input type="submit" value="+">
- 
 				</form>
 
 			</div>
